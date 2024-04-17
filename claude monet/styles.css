@@ -1,0 +1,113 @@
+
+Header {
+    display: flex;
+    font-family: "Bebas Neue", sans-serif;
+    background-color:  #404852;
+    border-bottom: thick double #F0F0DE;
+    
+    
+}
+
+Header #name{
+    font-size: 7rem;
+    padding: 10px;
+    margin: -2.5px;
+    color: #F0F0DE;
+}
+
+Header #painter {
+    font-size: 2rem;
+    color: 
+   #F0F0DE
+    ;
+
+}
+
+nav span a{
+    color: #46453e;
+    font-color
+}
+
+nav span a:hover {
+    background-color: white;
+}
+
+#monetquote {   
+    font-size: 3rem;
+    display: flex; 
+    justify-content: center;
+    align-self: flex-end;
+    color: #404852;
+    
+}
+
+#quote {
+    display: flex;
+    justify-content: center; 
+    margin: -50px;
+    color: #F0F0DE;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem; 
+}   
+
+
+body {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.5rem;
+    background-color: #99adae;
+    color: #394c50;
+}
+
+body #imageofmonet {
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+    width: auto;
+    margin: 100px;
+}
+
+
+/*Life Section*/
+
+#wholebio {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#wholebio p {
+    color: #ffeeee;
+}
+
+
+
+/*  #mainpic {
+    margin: 50px;
+    height: 1200px;
+    width: auto;
+}
+
+*/
+/*works area */
+
+
+.works {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  padding: 0;
+  height: 100vh;
+}
+
+.works img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto; /* Adjust the height as needed */
+  width: auto;
+}
+
+.works h5 {
+  float: left;
+  margin: 69px;
+}
